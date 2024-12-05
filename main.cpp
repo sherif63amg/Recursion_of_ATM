@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+//takes array , goal , 2 condition variables
 bool hasCombination(const int nums[], int target, int index, int size) {
     // Base cases:
     if (target == 0) {
